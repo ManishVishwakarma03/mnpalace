@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>MN Palace</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<script src="maxheight.js" type="text/javascript"></script>
+<!--[if lt IE 7]>
+<link href="ie_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="ie_png.js"></script>
+<script type="text/javascript">ie_png.fix('.png, #header .row-2, #header .nav li a, #content, .gallery li');</script>
+<![endif]-->
+</head>
+<body id="page5" onload="new ElementMaxHeight();">
+<div id="main">
+  <!-- header -->
+  <div id="header">
+    <div class="row-1">
+      <div class="wrapper">
+        <div class="logo">
+          <h1><a href="#">MN Palace</a></h1>
+          <em>Hotel</em> <strong>Best Hotel in Damoh</strong> </div>
+        <div class="phones"> 7805961023<br />
+          9098470904  </div>
+      </div>
+    </div>
+    <div class="row-2">
+      <div class="indent">
+        <!-- header-box begin -->
+        <div class="header-box">
+          <div class="inner">
+            <ul class="nav">
+              <li><a href="index.html">Home page</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="restaurant.html">Restaurant</a></li>
+              <li><a href="booking.html" class="current">Booking</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- header-box end -->
+      </div>
+    </div>
+  </div>
+  <!-- content -->
+  <div id="content">
+    <div class="wrapper" style="height: 460px;">
+      <div class="aside maxheight">
+        <!-- box begin -->
+        <div class="box maxheight">
+          <div class="inner">
+            <h3>Check Avalibility</h3>
+            <form action="#" id="reservation-form">
+              <fieldset>
+                <div class="field">
+                  <label>Check In:</label>
+                  <input type="date" name="" id="">
+                </div>
+                <div class="field">
+                  <label>Check Out:</label>
+                  <input type="date" name="" id="">
+                </div>
+                <div class="field">
+                  <label for="">Person:</label>
+                  <input type="text">
+                </div>
+                <div class="field">
+                  <label for="">Rooms:</label>
+                  <input type="text">
+                </div>
+                <div class="submit1">
+                  <img src="images/button-bg.gif" alt="">
+                  <input type="submit" value="Submit" style="background: none;font-size: 20px;font-weight: 600;" onclick="show()" >
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <!-- box end -->
+      </div>
+      <div class="content">
+        <div class="indent">
+          <h2>Booking</h2>
+          <form id="Bookingform">
+            <div>
+            <label for="">Enter Your Name</label>
+            <input type="text" placeholder="Enter Your Name" >
+          </div>
+          <div>
+            <label for="">Enter Your LastName</label>
+            <input type="text" placeholder="Enter Your LastName" >
+          </div>
+          <div>
+            <label for="">Enter Your Age</label>
+            <input type="text" placeholder="Enter Your Age" >
+          </div>
+            <div>
+            <label for="">Select checkin Date</label>
+            <input type="date">
+          </div>
+          <div>
+            <label for="">Selecr Checkout Date</label>
+            <input type="date">
+          </div>
+          <div class="submit"><a href="Reply.html">
+            <img src="images/button-bg.gif" alt="">
+            <input type="url" value="Submit"></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div id="footer">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="restaurant.html">Restaurant</a></li>
+      <li><a href="booking.html">Booking</a></li>
+    </ul>
+    <div class="wrapper">
+      <div class="fleft">Copyright &copy;2024 <a href="#">Maharaja Palace</a>. All Rights Reserved</div>
+      <div class="fright">Designed by MN Developers</div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+  function show(){
+    alert("Yes Available");
+  }
+</script>
+</html>
